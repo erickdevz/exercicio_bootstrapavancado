@@ -1,15 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
-    <title>Somos Cruzeiro</title>
+    <link rel="stylesheet" href="/main.css">
+    <title>Somos o caos</title>
 </head>
 
 <body>
     <header id="cabecalho">
-        <div class="navbar  navbar-expand-lg">
+        <div class="navbar navbar-dark bg-dark navbar-expand-lg">
             <div class="container">
                 <img id="logo" src="/img/cruzeirologo.png">
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -18,10 +20,10 @@
                 <nav class="collapse navbar-collapse justify-content-end" id="menu">
                     <ul class="nav navbar-nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#inicio">Inicio</a>
+                            <a class="nav-link active" href="#inicio">Monólogo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#homenagem">Homenagens</a>
+                            <a class="nav-link" href="#ultimosTrabalhos">Homenagem</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#redesSociais">Redes sociais</a>
@@ -40,13 +42,13 @@
             <div id="carousel-inicio" class="carousel carousel-fade slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div data-bs-interval="5000" class="carousel-item active">
-                        <img class="d-block w-100" src="/img/romerocruzeiro.jpg" height="1000px">
+                        <img class="d-block w-100" src="/img/viradacruzeiro.jpg">
                     </div>
                     <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block w-100" src="/img/jaquetacruzeiro.jpg" height="1000px">    
+                        <img class="d-block w-100" src="/img/romerocruzeiro.jpg">    
                     </div>
                     <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block w-100" src="/img/camisetaCruzeiroElenco.jpg" height="1000px">
+                        <img class="d-block w-100" src="/img/jaquetacruzeiro.jpg">
                     </div>
                 </div>
                 <button data-bs-target="#carousel-inicio" data-bs-slide="prev" class="carousel-control-prev" type="button">
@@ -80,25 +82,45 @@
                 </div>
             </div>
         </section>
-        <section id="homenagem">
-            <h2>Homenagem</h2>
-            <div class="container homenagem">
+        <section id="ultimosTrabalhos">
+            <h2>Últimos trabalhos</h2>
+            <div class="container ultimos-trabalhos">
                 <div class="sabores">
                     <div class="sabor">
                         <div class="card text-bg-dark">
                             <div class="card-header">
-                                O Nosso Arqueiro
+                                Camisa do Elenco do Cruzeiro | 2021 @Cruzeiro
+                            </div>
+                            <img src="/img/camisetaCruzeiroElenco.jpg">
+                            <div class="card-body">
+                                <p class="card-text">>Nem só de dribles vive um jogador de futebol, é preciso muita raça e determinação também. Afinal a competição é grande, seja nas peneiras, no terrão, nos jogos ou apenas no rachão de um treino. 
+                                    <br>
+                                    A camisa de um clube é o maior símbolo de tradição, de honra, raça e habilidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sabor">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                Aposentadoria do Arqueiro | 2024 @Cruzeiro
+                            </div>
+                            <img src="/img/homenagemmoreno2.jpg">
+                            <div class="card-body">
+                                <p class="card-text">MARCELO MORENO! Obrigado por vestir o manto celeste de corpo e alma, Flecheiro Azul. Um ídolo que faz sua despedida junto com a Nação! Eternamente na nossa história e nos nossos corações.
+                                    <br>
+                                    Só quem é Cruzeirense sabe o que você fez pelos funcionários nos momentos de crise!!! Caráter, dedicação e amor pela camisa!!!
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sabor">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                Despedida |2024 @Cruzeiro
                             </div>
                             <img src="/img/homenagemmoreno.jpg">
                             <div class="card-body">
-                                <p class="card-text">MARCELO MORENO! Obrigado por vestir o manto celeste de corpo e alma, Flecheiro Azul. Um ídolo que faz sua despedida junto com a Nação! Eternamente na nossa história e nos nossos corações. 
-                                    <br>
-                                    Só quem é Cruzeirense sabe o que você fez pelos funcionários nos momentos de crise!!! Caráter, dedicação e amor pela camisa!!!</p>
-                            <img src="/img/homenagemmoreno2.jpg">
-                            <div class="card-body">
-                                <p class="card-text">A última flechada! Um momento emocionante de despedida do Marcelo Moreno nos gramados do Mineirão. Receba o carinho e a gratidão de toda Nação, Flecheiro Azul. Nosso maior artilheiro estrangeiro, ídolo pela contribuição dentro e fora de campo! 
-                                    </p>
-                                <a href="https://www.instagram.com/p/C5eEgNjrv5Q/?img_index=1" class="btn btn-primary">Veja mais</a>
+                                <p class="card-text">A última flechada! Um momento emocionante de despedida do Marcelo Moreno nos gramados do Mineirão. Receba o carinho e a gratidão de toda Nação, Flecheiro Azul. Nosso maior artilheiro estrangeiro, ídolo pela contribuição dentro e fora de campo! </p>
                             </div>
                         </div>
                     </div>
@@ -137,7 +159,7 @@
                         <label for="email" class="form-label">Seu email:</label>
                         <input type="email" class="form-control" id="email">
                         <label for="mensagem" class="form-label">Sua mensagem:</label>
-                        <textarea name="mensagem" id="mensagem" cols="10" rows="2" class="form-control"></textarea>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="form-control"></textarea>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" id="aceito-termos">
                             <label class="form-check-label" for="aceito-termos">Estou ciente do uso dos meus dados para fins comerciais</label>
