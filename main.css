@@ -52,33 +52,6 @@ row-gap: 5%;
 #redesSociais img {
 margin: 20px;
 }
-
-@media screen and (max-width: 767px) {
-.container {
-    max-width: 98%;
-}
-
-.sabores {
-    display: block;
-}
-
-.sabores .sabor {
-    margin-bottom: 32px;
-}
-
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-.container {
-    max-width: 90%;
-}
-
-.sabores {
-    grid-template-columns: 49% 49%;
-}
-}
-
 @media screen and (max-width: 767px) {
     .container {
         max-width: 100%;
@@ -87,6 +60,7 @@ margin: 20px;
         max-width: 767px;
     }   
     .sabores .sabor {
+        display:inline;
         margin-bottom: 32px;
     }
     
@@ -102,6 +76,7 @@ margin: 20px;
     }
     
     .sabores {
+        display:inline;
         grid-template-columns: 49% 49%;
     }
 }
